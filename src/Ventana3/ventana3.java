@@ -29,7 +29,7 @@ public class ventana3
     {
         conex = null;//Inicializar la variable 
         
-        //Paso 12 -Metodo para manejar excepciones
+        // Paso 12 - Metodo para manejar excepciones
         try
         {
             Class.forName(DRIVER);
