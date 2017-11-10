@@ -14,6 +14,8 @@ import java.awt.*;
  * Clase:PruebaJava3
  * Responsabilidad:ventana 1 con importacion,herencia,declaracion,definicion,inicializar y crear, agregar los elementos y las propiedades de objetos 
  */
-public class ventana1 {
+//Paso 2 - Heredar la clase desde JFrame
+public class ventana1 extends JFrame
+{
     
 }
