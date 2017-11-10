@@ -7,9 +7,12 @@ package Ventana1;
 //Paso 1 - IMPORTAMOS LAS LIBRERIAS
 import javax.swing.*;//Importamos todo de swing
 import java.awt.*;
-/**
- *
+/******************************************************************************
+ *Elda Solar
  * @author LAB05
+ * Fecha: 10/11/2017
+ * Clase:PruebaJava3
+ * Responsabilidad:ventana 1 con importacion,herencia,declaracion,definicion,inicializar y crear, agregar los elementos y las propiedades de objetos 
  */
 public class ventana1 {
     
