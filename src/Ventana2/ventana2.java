@@ -6,6 +6,7 @@
 package Ventana2;
 // Paso 8 - IMPORTAR LA CLASE CON LA VENTANA
 import Ventana1.ventana1;//import paquete.clase
+import java.util.Scanner;
 import javax.swing.JFrame;
 /******************************************************************************
  *Elda Solar
@@ -19,11 +20,12 @@ public class ventana2 {
 
      public static void main(String[] args) 
 {
+     Scanner sc= new Scanner(System.in);//Se crea el lector
         // TODO code application logic here
         // Paso 9 - Llamado a la clase JFrame
         ventana1 ventana = new ventana1(); // Creo un objeto tipo Ventana1
         ventana.setVisible(true);
-        ventana.setBounds(0, 0, 600, 800);
+        ventana.setBounds(0, 0, 600, 600);
         //La siguiente inst. le ppone titulo a la ventana
         ventana.setTitle("Tercera Evaluacion Sumativa");
         

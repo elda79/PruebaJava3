@@ -41,10 +41,28 @@ public class ventana1 extends JFrame
      panel.add(boton1);//AQUI ESTAMOS AGREGANDO UN OBJETO AL PANEL
      panel.add(boton2);//AQUI ESTAMOS AGREGANDO UN OBJETO AL PANEL
      
+     
      //Paso 7 - PROPIEDADES DE LOS  OBJETOS O ELEMENTOS
-     label.setText("Nombre");
+     label.setText("Base de Datos");
      boton1.setText("Conectar");
      boton2.setText("Desconectar");
      panel.setBackground(Color.cyan);//Color de fondo del JPanel
- }
-}
+     
+  
+    //Paso 16 - Agregamos escuchador al boton
+     boton1.addActionListener (new ActionListener());
+     {
+     public void actionPerformed(ActionEvent evt);
+     {
+       con = new ConexionBD(); 
+       Connection reg = con.Conectar();
+     
+ }};
+    boton2.addActionListener (new ActionListener());
+     {
+     public void actionPerformed(ActionEvent evt);
+     { 
+       con.Desconectar();
+     }
+}};
+ 

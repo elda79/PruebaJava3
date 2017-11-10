@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package Ventana3;
-//PASO 10 - Necesario para conexion con MySQL
+//PASO 14
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -24,45 +24,5 @@ public class ventana3
     private static final String PASS = "";
     private static final String URL = "jdbc:mysql://localhost:3306/ventana3"; 
     
-    // - COSTRUCTOR DE LA CLASE
-    public ventana3()
-    {
-        conex = null;//Inicializar la variable 
-        
-        // Paso 12 - Metodo para manejar excepciones
-        try
-        {
-            Class.forName(DRIVER);
-            conex = DriverManager.getConnection(URL, USER, PASS);
-            if (conex != null) 
-            {
-             System.out.println("Conexion Establecida");
-            }
-        }
-        catch(ClassNotFoundException | SQLException e)
-        {
-         System.out.println("Error en la Conexion");
-        }
-    }
     
-    
-     //PASO 13 - DEFINICION METODOS PARA CONECTAR Y DESCONECTAR
-    public Connection conectar()
-    {
-        return conex;//Retorna el objeto conex  
-    }
-    
-    public void desconectar()
-    {
-      conex=null;
-        if (conex==null) 
-        {
-          System.out.println("Conexion Finalizada con exito");
-        }
-        else 
-       {
-        System.out.println("Lo Siento no Pudo Conectar");
-       }
-       
-}
 }
