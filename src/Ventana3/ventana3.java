@@ -57,7 +57,12 @@ public class ventana3
       conex=null;
         if (conex==null) 
         {
-          System.out.println("Conexion Finalizada");
+          System.out.println("Conexion Finalizada con exito");
         }
-    }
+        else 
+       {
+        System.out.println("Lo Siento no Pudo Conectar");
+       }
+       
+}
 }
