@@ -44,4 +44,20 @@ public class ventana3
          System.out.println("Error en la Conexion");
         }
     }
+    
+    
+     //PASO 13 - DEFINICION METODOS PARA CONECTAR Y DESCONECTAR
+    public Connection conectar()
+    {
+        return conex;//Retorna el objeto conex  
+    }
+    
+    public void desconectar()
+    {
+      conex=null;
+        if (conex==null) 
+        {
+          System.out.println("Conexion Finalizada");
+        }
+    }
 }
