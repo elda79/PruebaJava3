@@ -18,9 +18,15 @@ import java.awt.*;
 public class ventana1 extends JFrame
 {
  //Paso 3 - DECLARAR LOS ELEMENTOS A UTILIZAR
-    JPanel panel;
+ JPanel panel;
  JLabel label;
  JTextField text;
  JButton boton1;
  JButton boton2;
+ 
+  //Paso 4 - DEFINIR EL CONSTRUCTOR
+  public ventana1()
+ {
+     
+ }
 }
