@@ -22,5 +22,26 @@ public class ventana3
     private static final String DRIVER = "com.mysql.jdbc.Driver";
     private static final String USER = "root";
     private static final String PASS = "";
-    private static final String URL = "jdbc:mysql://localhost:3306/ventana3";   
+    private static final String URL = "jdbc:mysql://localhost:3306/ventana3"; 
+    
+    // - COSTRUCTOR DE LA CLASE
+    public ventana3()
+    {
+        conex = null;//Inicializar la variable 
+        
+        //Paso 12 -Metodo para manejar excepciones
+        try
+        {
+            Class.forName(DRIVER);
+            conex = DriverManager.getConnection(URL, USER, PASS);
+            if (conex != null) 
+            {
+             System.out.println("Conexion Establecida");
+            }
+        }
+        catch(ClassNotFoundException | SQLException e)
+        {
+         System.out.println("Error en la Conexion");
+        }
+    }
 }
