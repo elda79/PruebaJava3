@@ -4,7 +4,10 @@
  * and open the template in the editor.
  */
 package Ventana3;
-
+//PASO 10 - Necesario para conexion con MySQL
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
 /**
  *
  * @author LAB05
