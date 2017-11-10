@@ -40,5 +40,11 @@ public class ventana1 extends JFrame
      panel.add(text);//AQUI ESTAMOS AGREGANDO UN OBJETO AL PANEL
      panel.add(boton1);//AQUI ESTAMOS AGREGANDO UN OBJETO AL PANEL
      panel.add(boton2);//AQUI ESTAMOS AGREGANDO UN OBJETO AL PANEL
+     
+     //Paso 7 - PROPIEDADES DE LOS  OBJETOS O ELEMENTOS
+     label.setText("Nombre");
+     boton1.setText("Conectar");
+     boton2.setText("Desconectar");
+     panel.setBackground(Color.cyan);//Color de fondo del JPanel
  }
 }
