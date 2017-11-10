@@ -15,6 +15,12 @@ import java.sql.SQLException;
  * Clase:PruebaJava3
  * Responsabilidad:conexion con MySQL,declara los objetos para la conexion,metodo para manejar excepciones y Define metodos para conectar y desconectar
  */
-public class ventana3 {
-    
+public class ventana3 
+{
+ //PASO 11 - DECLARANDO OBJETOS PARA LA CONEXION
+    private static Connection conex;//Objeto tipo Connection
+    private static final String DRIVER = "com.mysql.jdbc.Driver";
+    private static final String USER = "root";
+    private static final String PASS = "";
+    private static final String URL = "jdbc:mysql://localhost:3306/ventana3";   
 }
