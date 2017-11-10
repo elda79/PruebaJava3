@@ -17,5 +17,10 @@ import java.awt.*;
 //Paso 2 - Heredar la clase desde JFrame
 public class ventana1 extends JFrame
 {
-    
+ //Paso 3 - DECLARAR LOS ELEMENTOS A UTILIZAR
+    JPanel panel;
+ JLabel label;
+ JTextField text;
+ JButton boton1;
+ JButton boton2;
 }
