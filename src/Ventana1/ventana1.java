@@ -33,5 +33,12 @@ public class ventana1 extends JFrame
      text = new JTextField(20);// 20 es la cantidad de caracteres
      boton1 = new JButton();
      boton2 = new JButton();
+     
+      //Paso 6 - AGREGAR LOS ELEMENTOS
+     this.add(panel);//El this es para agregar el JPanel Al JFrame
+     panel.add(label);//AQUI ESTAMOS AGREGANDO UN OBJETO AL PANEL
+     panel.add(text);//AQUI ESTAMOS AGREGANDO UN OBJETO AL PANEL
+     panel.add(boton1);//AQUI ESTAMOS AGREGANDO UN OBJETO AL PANEL
+     panel.add(boton2);//AQUI ESTAMOS AGREGANDO UN OBJETO AL PANEL
  }
 }
