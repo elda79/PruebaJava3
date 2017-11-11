@@ -4,25 +4,28 @@
  * and open the template in the editor.
  */
 package Ventana3;
-//PASO 14
+import javax.swing.*;
+import java.awt.*;
+//PASO 14 - Importamos la clase conexion
+import bd.ConexionBD;
 import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
-/**
+import java.awt.Event;
+
+/*****************************************************************************
  *Elda Solar
  * @author LAB05
  * Fecha: 10/11/2017
  * Clase:PruebaJava3
- * Responsabilidad:conexion con MySQL,declara los objetos para la conexion,metodo para manejar excepciones y Define metodos para conectar y desconectar
+ * Responsabilidad:Importamos la clase conexion,
  */
-public class ventana3 
+public class ventana3 extends JFrame
 {
- //PASO 11 - DECLARANDO OBJETOS PARA LA CONEXION
-    private static Connection conex;//Objeto tipo Connection
-    private static final String DRIVER = "com.mysql.jdbc.Driver";
-    private static final String USER = "root";
-    private static final String PASS = "";
-    private static final String URL = "jdbc:mysql://localhost:3306/ventana3"; 
-    
+   JPanel panel;
+   JLabel label;
+   JTextField text;
+   JButton boton1;
+   JButton boton2;
+   
+   
     
 }
